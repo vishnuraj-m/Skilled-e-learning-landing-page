@@ -34,6 +34,7 @@ body {
     font-size: 16px;
     font-weight: 700;
     line-height: 28px;
+    transition: all 0.3s ease;
 }
 
 .header_button:hover {
@@ -42,3 +43,95 @@ body {
 }
 
 /* ! Header Section End */
+/* ! Main Section Start */
+.intro_heading {
+    color: #13183F;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 800;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.intro_para,
+.card_description {
+    color: #83869A;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 1rem;
+    line-height: 28px;
+}
+
+.into_button {
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    background: linear-gradient(#FF6F48, #F02AA6);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 1rem;
+    line-height: 28px;
+    transition: all 0.3s ease;
+}
+
+.into_button:hover {
+    background: linear-gradient(#FF6F48, #FFA7C3);
+    cursor: pointer;
+}
+
+.intro_image {
+    background: url(./assets/image-hero-mobile.png) no-repeat center;
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+}
+
+.intro_card {
+    margin: 1rem;
+    background: linear-gradient(#FF6F48, #F02AA6);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.sub_card {
+    padding: 1rem;
+    padding-bottom: 0;
+    width: 80%;
+    margin: 2.5rem auto;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.card_heading {
+    color: #13183F;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    line-height: 28px;
+}
+
+.card_logo {
+    position: relative;
+    top: -45px;
+}
+
+.card_description {
+    margin: 0;
+}
+
+.card_link {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    color: #f74780;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* ! Main Section End */
