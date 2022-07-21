@@ -38,7 +38,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Treasure Kabareebe](https://trekab.github.io/)
-- Frontend Mentor - [@trekab](https://www.frontendmentor.io/profile/trekab)
-- LinkedIn - [Treasure Kabareebe](https://www.linkedin.com/in/treasure-kabareebe/)
+- Website - [Vishnuraj M](https://github.com/vishnuraj-m)
+- LinkedIn - [Vishnuraj M](https://www.linkedin.com/in/vishnuraj-m-798268243/)
 
