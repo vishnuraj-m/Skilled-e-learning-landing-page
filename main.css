@@ -15,3 +15,30 @@ body {
 .main_section {
     min-height: 100vh - 8rem;
 }
+
+/* ! Header Section Start */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    /* color: #13183F; */
+}
+
+.header_button {
+    background-color: #13183F;
+    color: #ffffff;
+    width: 9.5rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+}
+
+.header_button:hover {
+    background-color: #666CA3;
+    cursor: pointer;
+}
+
+/* ! Header Section End */
