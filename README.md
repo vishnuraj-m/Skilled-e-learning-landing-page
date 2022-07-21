@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Skilled e-learning landing page](https://skilled-elearning-trekab.netlify.app/)
+- Live Site URL: [Skilled e-learning landing page](https://vishnuraj-m.github.io/Skilled-e-learning-landing-page/)
 
 ## My process
 
