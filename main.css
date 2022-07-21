@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@500;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    font-family: "Plus Jakarta Sans", sans-serif;
+    background: linear-gradient(#ffffff 50%, #f2f2f2);
+}
+
+.main_section {
+    min-height: 100vh - 8rem;
+}
+
+/* ! Header Section Start */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 1rem;
+    /* color: #13183F; */
+}
+
+.header_button {
+    background-color: #13183F;
+    color: #ffffff;
+    width: 9.5rem;
+    height: 3rem;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 28px;
+    transition: all 0.3s ease;
+}
+
+.header_button:hover {
+    background-color: #666CA3;
+    cursor: pointer;
+}
+
+/* ! Header Section End */
+/* ! Main Section Start */
+.intro_heading {
+    color: #13183F;
+    font-size: 36px;
+    line-height: 50px;
+    font-weight: 800;
+    margin: 1rem;
+    margin-top: 2rem;
+}
+
+.intro_para,
+.card_description {
+    color: #83869A;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 1rem;
+    line-height: 28px;
+}
+
+.into_button {
+    width: 10rem;
+    height: 3.5rem;
+    border-radius: 50px;
+    background: linear-gradient(#FF6F48, #F02AA6);
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin: 1rem;
+    line-height: 28px;
+    transition: all 0.3s ease;
+}
+
+.into_button:hover {
+    background: linear-gradient(#FF6F48, #FFA7C3);
+    cursor: pointer;
+}
+
+.intro_image {
+    background: url(./assets/image-hero-mobile.png) no-repeat center;
+    height: 50vh;
+    width: 100%;
+    margin: auto;
+}
+
+.intro_card {
+    margin: 1rem;
+    background: linear-gradient(#FF6F48, #F02AA6);
+    color: #ffffff;
+    border-radius: 10px;
+    padding: 1.5rem;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 40px;
+}
+
+.sub_card {
+    padding: 1rem;
+    padding-bottom: 0;
+    width: 80%;
+    margin: 2.5rem auto;
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.card_heading {
+    color: #13183F;
+    font-weight: 800;
+    font-size: 24px;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    line-height: 28px;
+}
+
+.card_logo {
+    position: relative;
+    top: -45px;
+}
+
+.card_description {
+    margin: 0;
+}
+
+.card_link {
+    display: inline-block;
+    text-decoration: none;
+    margin-top: 1.5rem;
+    color: #f74780;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+/* ! Main Section End */
+/* ! Footer Section Start */
+.footer {
+    display: flex;
+    align-items: center;
+    background-color: #13183F;
+    height: 7rem;
+}
+
+.footer_section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    color: #ffffff;
+    width: 100%;
+}
+
+.footer_button {
+    background: linear-gradient(#4851FF, #F02AA6);
+    color: #ffffff;
+    border-radius: 50px;
+    width: 8rem;
+    height: 3rem;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 700;
+    transition: all 0.3s ease;
+}
+
+.footer_button:hover {
+    background: linear-gradient(#4851FF, #FFA7C3);
+    cursor: pointer;
+}
+
+/* ! Footer Section End */
